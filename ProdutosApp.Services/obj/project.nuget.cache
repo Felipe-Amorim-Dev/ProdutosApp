@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iuUv8wrbrse06nX4fkFhH0fCfBnpnjmpHRlZ8AM4RsyxeXglN/SgBKLll9AU8w7YFDL/IijPXpTviR5l9X7OGA==",
+  "dgSpecHash": "uh0axa13mJcXxPp12hRwOqHA+YbsQPz0XZGpdhmhR72w4aGsG8+qI3eru0e3EG4gcaQT4T4DZ863lIfyWu5ybQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\C-Sharp\\ProdutosApp\\ProdutosApp.Services\\ProdutosApp.Services.csproj",
+  "projectFilePath": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\ProdutosApp\\ProdutosApp.Services\\ProdutosApp.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Felipe Amorim\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Felipe Amorim\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

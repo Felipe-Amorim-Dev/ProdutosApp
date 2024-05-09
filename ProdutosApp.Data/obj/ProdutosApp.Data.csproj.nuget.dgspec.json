@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\C-Sharp\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj": {}
+    "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\C-Sharp\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj": {
+    "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\C-Sharp\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj",
         "projectName": "ProdutosApp.Data",
-        "projectPath": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\C-Sharp\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj",
+        "projectPath": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\ProdutosApp\\ProdutosApp.Data\\ProdutosApp.Data.csproj",
         "packagesPath": "C:\\Users\\Felipe Amorim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\C-Sharp\\ProdutosApp\\ProdutosApp.Data\\obj\\",
+        "outputPath": "C:\\Users\\Felipe Amorim\\Projetos\\Pessoal\\DotNet\\ProdutosApp\\ProdutosApp.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
