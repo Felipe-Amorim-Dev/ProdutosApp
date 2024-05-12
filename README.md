@@ -7,7 +7,7 @@
 
 <p>Esta é uma aplicação construída em .NET Core para gerenciamento de produtos. A aplicação permite realizar operações CRUD (Criar, Ler, Atualizar, Deletar) em uma base de dados de produtos utilizando o Entity Framework para interação com o banco de dados.</p>
 
-<h3><a href="https://github.com/Felipe-Amorim-Dev/ProdutosWeb">Link do Back-End</a>a</h3>
+<h3><a href="https://github.com/Felipe-Amorim-Dev/ProdutosWeb">Link do Back-End</a></h3>
 
 <h2>Estrutura do Projeto</h2>
 
