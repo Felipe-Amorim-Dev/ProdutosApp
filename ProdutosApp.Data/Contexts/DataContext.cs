@@ -18,7 +18,7 @@ namespace ProdutosApp.Data.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //caminho da string de conexão do banco de dados.
-            optionsBuilder.UseSqlServer(@"");
+            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=BDProdutosApp;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
         }
 
         //Método para adicionar as classes de mapeamento do projeto

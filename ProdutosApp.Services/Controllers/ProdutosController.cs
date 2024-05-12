@@ -14,7 +14,7 @@ namespace ProdutosApp.Services.Controllers
         /// Método para serviço de cadastro de produtos:
         /// POST /api/produtos
         /// </summary>
-        [Route("cadastar-produto")]
+        [Route("cadastrar-produto")]
         [HttpPost]
         [ProducesResponseType(typeof(ProdutosGetModel), 200)]
         public IActionResult CadastrarProduto([FromBody] ProdutosPostModel model)
@@ -53,7 +53,7 @@ namespace ProdutosApp.Services.Controllers
         /// Método para serviço de edição de produtos:
         /// PUT /api/produtos
         /// </summary>
-        [Route("atualizar-produtos")]
+        [Route("atualizar-produto")]
         [HttpPut]
         [ProducesResponseType(typeof(ProdutosGetModel), 200)]
         public IActionResult AtualizarProduto([FromBody] ProdutosPutModel model)
@@ -96,7 +96,7 @@ namespace ProdutosApp.Services.Controllers
         /// <summary>
         /// Método para serviço de exclusão de produtos:
         /// DELETE /api/produtos
-        /// </summary>
+        /// </summary>        
         [HttpDelete("{id}")]
         [ProducesResponseType(typeof(ProdutosGetModel), 200)]
         public IActionResult RemoverProduto(Guid? id)
@@ -136,7 +136,7 @@ namespace ProdutosApp.Services.Controllers
         /// Método para serviço de consulta de produtos:
         /// GET /api/produtos
         /// </summary>
-        [Route("consultar-produto")]
+        [Route("consultar-produtos")]
         [HttpGet]
         [ProducesResponseType(typeof(List<ProdutosGetModel>), 200)]
         public IActionResult ConsultarProdutos()
