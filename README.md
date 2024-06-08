@@ -31,14 +31,14 @@
 <li><h4>Models</h4>
     Na camada de modelo estão os dados da aplicação onde são aplicadas validações para aplicar as regras de negócio.
 
-    ProdutoPostModel - modelo para validação dos dados: Nome, Preço e Qunatidade.
+    ProdutoPostModel - modelo para validação dos dados: Nome, Preço e Quantidade.
     ProdutoPutModel - modelo para validação dos dados: Id, Nome, Preço e Quantidade.
     ProdutoGetModel - modelo para retorno dos dados: Id, Nome, Preço, Quantidade, DataHoraCriacao e DataHoraAlteracao.
 </li>
 </ul>
 
 <h3>Camada de dados (Data Layer)</h3>
-<p>Nesta camada estão localizado as Entidades (Entities), o Repositorio (Repositories), o Contexto (Context) e o Mapeamento (Mappings):</p>
+<p>Nesta camada estão localizado as Entidades (Entities), o Repositório (Repositories), o Contexto (Context) e o Mapeamento (Mappings):</p>
 
 
 <ul>
@@ -67,7 +67,7 @@ Os métodos do Produto são:
 </li>
 
 <li><h4>ProdutoRepository</h4>
-    Na camada de Repositorio estão as implementações das operações de CRUD, que atravez do DbSet que se encontra na DataContext pode acessar o banco de dados.
+    Na camada de Repositório estão as implementações das operações de CRUD, que atravez do DbSet que se encontra na DataContext pode acessar o banco de dados.
 
 Operações: 
 
@@ -76,7 +76,7 @@ Operações:
 </li>
 
 <li><h4>DataContext</h4>
-    Na camada Contexts cria o método para conexção com o banco de dados atraves da connection String.
+    Na camada Contexts cria o método para conexão com o banco de dados através da connection String.
     
 </li>
 
@@ -90,8 +90,8 @@ Operações:
 <p>Para executar o projeto, você deve ter o Visual Studio 2022 devidamente instalado.</p>
 <p>O projeto foi desenvolvido em C# .NET CORE versão 8.</p>
 <p>
-Para a Criação do banco de dados foi utilizada a blibioteca do EntityFramework.
-Deve ser instalado na camada de Data (ProdutoApp.Data) as seguintes blibiotecas:
+Para a Criação do banco de dados foi utilizada a biblioteca do EntityFramework.
+Deve ser instalado na camada de Data (ProdutoApp.Data) as seguintes bibliotecas:
 <ul>
 <li>
 Microsoft.EntityFrameworkCore
@@ -108,7 +108,7 @@ Microsoft.EntityFrameworkCore.Design
 </ul>
 </p>
 
-Depois de instalada as blibiotecas devemos usar o console do NuGet para colocar os comandos de criação do Migrations.
+Após instalada as bibliotecas devemos usar o console do NuGet para colocar os comandos de criação do Migrations.
 
     Add-Migration Initial //O initial pode ser qualquer nome.
     
